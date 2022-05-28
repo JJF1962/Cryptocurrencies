@@ -39,8 +39,10 @@ Firstly we look for the best value for k using the elbow curve as shown in the f
 
 Secondly we initialized the _K-Means model, fitted and predicted clusters, finally for this deliverable, we created a new Dataframe inclusing predicted clusteras na dcryptocurrencies as shown in image below:
 
-![this is an image]()
+![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/Delivery%203%20Sec%20pic%20Dataframe.PNG)
 
 ##  Visualizations were developed
-##  3-D Scatter Plot with Hover Data Information
+This Delivery constitute the visualization of the data, we execute a code for 3-D Scatter Plot with Hover Data Information, with following image as a result
+
+![this is an image]()
 
