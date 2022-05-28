@@ -53,3 +53,4 @@ After that it was clustered, scalledto obtain anew DataFrame that has the scaled
 ## Summary
 
 Beautiful subject - good learning module, very challenging an is mazin to have the power to interepretate data  applying unsupervised algorithms, exploring data when we're not sure what we're looking for.Now we are in the posicion to analyze data without a clear output in mind!
+I  installed  hvplot, plotly and sklearn, !pip install sklearn, !pip install plotly, !pip install hvplot in the notebook to be able to properly run the kernel. 
