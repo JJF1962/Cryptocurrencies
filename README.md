@@ -21,18 +21,18 @@ The following actions and information were used to develop the challenge 18:
 
 ![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/Deliverable%201%20Load%20the%20crypto_data.csv%20dataset.PNG)
 
-## The data was preprocessed for PCA
+### The data was preprocessed for PCA
 In order to proprocess the crypto_data. csv for PCA, we coded to keep all the cryptocurrencies that are being traded, keep all the cryptocurrencies that have a working algorithm; It was removed the IDTrading Column, because content text data, no posibile to interpretate using unsupervised algorithms, after that, it were removed all the cells that contain at least one (1) null value, keeping the rows were coins were mined, aditionally it was created a new dataframe that holds only the cryptocurrencies names. and in the following codes it was drop the 'CoinName' column since it's not going to be used on the clustering algorithm, used the get_dummies() to create variables for text features, and fianlly we standarize the data with StandardScaler as shown below:
 
 ![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/StandardScaler.%20PNG.PNG) 
 
-##  Data Dimensions were reduced using PCA
+###  Data Dimensions were reduced using PCA
 It was created a dataFrame with the three principal components as shoen in figure below: 
 
 
 ![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/Delivery2%20Data%20Frame%20with%203%20componentsPNG.PNG)
 
-##  Cryptocurrency Clusters were developed using K-means
+###  Cryptocurrency Clusters were developed using K-means
 Firstly we look for the best value for k using the elbow curve as shown in the figure below:
 
 ![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/Delivery%203%20Finding%20the%20best%20k%20value.PNG)
@@ -41,11 +41,15 @@ Secondly we initialized the _K-Means model, fitted and predicted clusters, final
 
 ![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/Delivery%203%20Sec%20pic%20Dataframe.PNG)
 
-##  Visualizations were developed
+###  Visualizations were developed
 This Delivery constitute the visualization of the data, we execute a code for 3-D Scatter Plot with Hover Data Information, with following image as a result
 
 ![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/Visualizing%20the%20Cryptocurrencies.PNG)
 
 After that it was clustered, scalledto obtain anew DataFrame that has the scaled data with the clustered_df DataFrame index, finally it was generated a hvplot.scatter plot using x="TotalCoinsMined" and y="TotalCoinSupply".
 
-![this is an image]()
+![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/Delivery%204%20.PNG)
+
+## Summary
+
+Beautiful subject - good learning module, very challenging an is mazin to have the power to interepretate data  applying unsupervised algorithms, exploring data when we're not sure what we're looking for.Now we are in the posicion to analyze data without a clear output in mind!
