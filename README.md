@@ -9,10 +9,10 @@ It was used The K-means algorithm, the main unsupervised algorithm that groups s
 * Determine the best number of centroids for K-means using the elbow curve.
 * Use PCA to limit features and speed up the model.
 
-Tools used: Jupyter Notebook
+IT Tools used: Jupyter Notebook
 Libraries: Pandas, hvplot, path import Path, plotly.express as px, sklearn, StandardScaler, MinMaxScaler, PCA, sklearn.cluster, KMeans
 Language: Phyton
-Challenges: Install hvplot, plotly and sklearn
+Challenges: Install hvplot, plotly and sklearn - I did a !pip install sklearn, !pip install plotly, !pip install hvplot 
 
 ## Results
 
@@ -24,10 +24,17 @@ The following actions and information were used to develop the challenge 18:
 ## The data was preprocessed for PCA
 In order to proprocess the crypto_data. csv for PCA, we coded to keep all the cryptocurrencies that are being traded, keep all the cryptocurrencies that have a working algorithm; It was removed the IDTrading Column, because content text data, no posibile to interpretate using unsupervised algorithms, after that, it were removed all the cells that contain at least one (1) null value, keeping the rows were coins were mined, aditionally it was created a new dataframe that holds only the cryptocurrencies names. and in the following codes it was drop the 'CoinName' column since it's not going to be used on the clustering algorithm, used the get_dummies() to create variables for text features, and fianlly we standarize the data with StandardScaler as shown below:
 
-![this is an image]() 
+![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/StandardScaler.%20PNG.PNG) 
 
-•	Data Dimensions were reduced using PCA
-•	Cryptocurrency Clusters were developed using K-means
-•	Visualizations were developed
-3-D Scatter Plot with Hover Data Information
+##  Data Dimensions were reduced using PCA
+It was created a dataFrame with the three principal components as shoen in figure below: 
+
+
+![this is an image]()
+
+
+
+##  Cryptocurrency Clusters were developed using K-means
+##  Visualizations were developed
+##  3-D Scatter Plot with Hover Data Information
 
