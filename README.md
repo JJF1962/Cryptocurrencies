@@ -44,5 +44,8 @@ Secondly we initialized the _K-Means model, fitted and predicted clusters, final
 ##  Visualizations were developed
 This Delivery constitute the visualization of the data, we execute a code for 3-D Scatter Plot with Hover Data Information, with following image as a result
 
-![this is an image]()
+![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/Visualizing%20the%20Cryptocurrencies.PNG)
 
+After that it was clustered, scalledto obtain anew DataFrame that has the scaled data with the clustered_df DataFrame index, finally it was generated a hvplot.scatter plot using x="TotalCoinsMined" and y="TotalCoinSupply".
+
+![this is an image]()
