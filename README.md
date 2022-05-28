@@ -35,6 +35,10 @@ It was created a dataFrame with the three principal components as shoen in figur
 ##  Cryptocurrency Clusters were developed using K-means
 Firstly we look for the best value for k using the elbow curve as shown in the figure below:
 
+![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/Delivery%203%20Finding%20the%20best%20k%20value.PNG)
+
+Secondly we initialized the _K-Means model, fitted and predicted clusters, finally for this deliverable, we created a new Dataframe inclusing predicted clusteras na dcryptocurrencies as shown in image below:
+
 ![this is an image]()
 
 ##  Visualizations were developed
