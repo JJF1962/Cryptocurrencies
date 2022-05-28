@@ -30,11 +30,13 @@ In order to proprocess the crypto_data. csv for PCA, we coded to keep all the cr
 It was created a dataFrame with the three principal components as shoen in figure below: 
 
 
-![this is an image]()
-
-
+![this is an image](https://github.com/JJF1962/Cryptocurrencies/blob/main/images/Delivery2%20Data%20Frame%20with%203%20componentsPNG.PNG)
 
 ##  Cryptocurrency Clusters were developed using K-means
+Firstly we look for the best value for k using the elbow curve as shown in the figure below:
+
+![this is an image]()
+
 ##  Visualizations were developed
 ##  3-D Scatter Plot with Hover Data Information
 
