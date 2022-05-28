@@ -24,7 +24,7 @@ The following actions and information were used to develop the challenge 18:
 ## The data was preprocessed for PCA
 In order to proprocess the crypto_data. csv for PCA, we coded to keep all the cryptocurrencies that are being traded, keep all the cryptocurrencies that have a working algorithm; It was removed the IDTrading Column, because content text data, no posibile to interpretate using unsupervised algorithms, after that, it were removed all the cells that contain at least one (1) null value, keeping the rows were coins were mined, aditionally it was created a new dataframe that holds only the cryptocurrencies names. and in the following codes it was drop the 'CoinName' column since it's not going to be used on the clustering algorithm, used the get_dummies() to create variables for text features, and fianlly we standarize the data with StandardScaler as shown below:
 
-
+![this is an image]() 
 
 •	Data Dimensions were reduced using PCA
 •	Cryptocurrency Clusters were developed using K-means
